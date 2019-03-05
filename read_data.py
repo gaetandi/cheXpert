@@ -5,12 +5,13 @@ Read images and corresponding labels.
 """
 
 import torch
+import csv
 from torch.utils.data import Dataset
 from PIL import Image
-import os
 
 
-class ChestXrayDataSet(Dataset):
+
+class CheXpertDataSet(Dataset):
     def __init__(self, data_dir, image_list_file, transform=None):
         """
         Args:
@@ -22,13 +23,18 @@ class ChestXrayDataSet(Dataset):
         image_names = []
         labels = []
         with open(image_list_file, "r") as f:
-            for line in f:
-                items = line.split()
-                image_name= items[0]
-                label = items[1:]
-                label = [int(i) for i in label]
-                image_name = os.path.join(data_dir, image_name)
-                image_names.append(image_name)
+            csvReader = csv.reader(f)
+            next(csvReader, None)
+            for line in csvReader:
+                image_name= line[0]
+                label = line[5:]
+                for l in label:
+                    if l:
+                        l = int(float(l))
+                    else:
+                        l = 0
+                #image_name = os.path.join(data_dir, image_name)
+                image_names.append('./' + image_name)
                 labels.append(label)
 
         self.image_names = image_names
