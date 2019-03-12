@@ -1,2 +1,2 @@
 # cheXpert
-A repository created for the MAP583 Deep Learning course.
+A repository created for the MAP583 Deep Learning project.
