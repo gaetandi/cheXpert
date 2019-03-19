@@ -22,8 +22,9 @@ To run this organized notebook, you need the following packages: pytorch, PIL, c
 # 2. Models
 
 Running the code, you may ignore the training process if you use one of our pretrained models:
--  *model_ones_3epoch.tar* is a DenseNet121 trained for 3 epochs using the policy "ones" (uncertain labels are considered positive)
--  *model_zeroes_1epoch.pth.tar* is a DenseNet121 trainet for 1 epoch using the policy "zeroes" (uncertain labels are considered negative)
+-  *model_ones_2epoch_densenet.tar* is a DenseNet121 trained for 2 epochs using the policy "ones" (uncertain labels are considered positive)
+-  *model_ones_3epoch_densenet.tar* is a DenseNet121 trained for 3 epochs using the policy "ones" (uncertain labels are considered positive)
+-  *model_zeroes_1epoch_densenet.pth.tar* is a DenseNet121 trainet for 1 epoch using the policy "zeroes" (uncertain labels are considered negative)
 
 # 3. Results
 
