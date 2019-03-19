@@ -50,6 +50,4 @@ Publications :
 1. CheXpert: A Large Chest Radiograph Dataset with Uncertainty Labels and Expert Comparison, *Irvin, Jeremy, et al.*, 2019  [[Arxiv:1901.07031]](https://arxiv.org/pdf/1901.07031.pdf)
 2. CheXNet: Radiologist-Level Pneumonia Detection on Chest X-Rays with Deep Learning, *Rajpurkar, Irvin, et al.*, 2017 [[Arxiv:1711.05225]](https://arxiv.org/pdf/1711.05225.pdf)
 3. Densely Connected Convolutional Networks, *Huang et al.*, 2018 [[Arxiv:1608.06993]](https://arxiv.org/pdf/1608.06993.pdf)
-
-GitHub: 
-https://github.com/zoogzog/chexnet?fbclid=IwAR11GtcTJDglJpNYbqNIZFPeE4Zk9Ac132-fIVwqIkMItk3GGKY8OvhvVQA
+4. [GitHub Repository](https://github.com/zoogzog/chexnet?fbclid=IwAR11GtcTJDglJpNYbqNIZFPeE4Zk9Ac132-fIVwqIkMItk3GGKY8OvhvVQA)
