@@ -32,20 +32,20 @@ We first trained a DenseNet121 model using the policy "ones" (uncertain labels a
 For this model, we had the following loss during the training of 3 epochs:
 
 <p align="center">
-  <img src="https://github.com/gaetandi/cheXpert/blob/master/results/loss_ones_densenet.png" width="420">
+  <img src="https://github.com/gaetandi/cheXpert/blob/master/results/loss_ones_densenet.png" width="480">
 </p>
 
 And the following ROC curves (after the first epoch, the second epoch and the third epoch):
 
 <p align="center">
-  <img src="https://github.com/gaetandi/cheXpert/blob/master/results/ROC_densenet.png" width="360">
+  <img src="https://github.com/gaetandi/cheXpert/blob/master/results/ROC_densenet.png" width="800">
 </p>
 
 You may check our presentation to see further details about our results.
 These results do not outperform the results given by the Stanford ML group or evn radiologist, but the are encouraging as you can see on the following plot:
 
 <p align="center">
-  <img src="https://github.com/gaetandi/cheXpert/blob/master/results/Edema_radiologistscompare.png" width="360">
+  <img src="https://github.com/gaetandi/cheXpert/blob/master/results/Edema_radiologistscompare.png" width="400">
 </p>
 
 These charts are available in the *results* directory.
