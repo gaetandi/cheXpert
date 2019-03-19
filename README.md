@@ -38,7 +38,7 @@ For this model, we had the following loss during the training of 3 epochs:
 And the following ROC curves (after the first epoch, the second epoch and the third epoch):
 
 <p align="center">
-  <img src="https://github.com/gaetandi/cheXpert/blob/master/results/ROC_densenet.png" width="1200">
+  <img src="https://github.com/gaetandi/cheXpert/blob/master/results/ROC_densenet.png" width="1800">
 </p>
 
 You may check our presentation to see further details about our results.
