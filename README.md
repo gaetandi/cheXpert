@@ -38,7 +38,7 @@ And the following ROC curves (after the first epoch, the second epoch and the th
 You may check our presentation to see further details about our results.
 These results do not outperform the results given by the Stanford ML group or evn radiologist, but the are encouraging as you can see on the following plot:
 
-![alt text](https://github.com/gaetandi/cheXpert/blob/master/results/Edema_radiologistscompare.png){:height="50%" width="50%"}
+![alt text](https://github.com/gaetandi/cheXpert/blob/master/results/Edema_radiologistscompare.png){:height="700px" width="400px"}
 
 These charts are available in the *results* directory.
 
