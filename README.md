@@ -1,5 +1,5 @@
 # CheXpert : A Large Chest X-Ray Dataset and Competition
-A repository created for the MAP583 Deep Learning project.
+*A repository created for the MAP583 Deep Learning project*
 
 Authors: Gaëtan Dissez & Guillaume Duboc
 
