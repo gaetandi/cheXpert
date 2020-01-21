@@ -3,6 +3,7 @@
 
 Authors: Gaëtan Dissez & Guillaume Duboc
 
+This repository uses different sources, listed in the references, and especially ref n°4 for the coding part.
 
 This competition launched by the Stanford ML group aims at finding a prediction model which could perform as well as radiologist to find different pathologies thanks to chest X-Ray. The Dataset available to train our model is composed of 223,414 chest radiographs of 65,240 patients.
 
